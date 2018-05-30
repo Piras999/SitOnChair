@@ -308,7 +308,7 @@ section.main > div{
 }
 
 
-.main .img, .main .img1, .main .img2, .main .img3{
+.main .img, .main .img1, .main .img2{
     width: 400px;
     height: 505px;
     background-image: url("images/black_chair.png");
@@ -319,15 +319,14 @@ section.main > div{
 
 .main .img1{
     background-image: url("images/red_chair.png");
+    background-size: contain;
+    background-position: 50% 50%;
 }
 
 .main .img2{
-    background-image: url("images/form_ok.jpg");
+    background-image: url("images/orange_chair.png");
 }
 
-.main .img3{
-    background-image: url("images/box1_img.jpg");
-}
 
 .main .product_description {
     width: 437px;
