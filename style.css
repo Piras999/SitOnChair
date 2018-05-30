@@ -1,0 +1,821 @@
+@font-face {
+    font-family: 'ralewayblack';
+    src: url('fonts/raleway-black.woff2') format('woff2'),
+    url('fonts/raleway-black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ralewayblack_italic';
+    src: url('fonts/raleway-blackitalic.woff2') format('woff2'),
+    url('fonts/raleway-blackitalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ralewaybold';
+    src: url('fonts/raleway-bold.woff2') format('woff2'),
+    url('fonts/raleway-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ralewaybold_italic';
+    src: url('fonts/raleway-bolditalic.woff2') format('woff2'),
+    url('fonts/raleway-bolditalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ralewayextrabold';
+    src: url('fonts/raleway-extrabold.woff2') format('woff2'),
+    url('fonts/raleway-extrabold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ralewayextrabold_italic';
+    src: url('fonts/raleway-extrabolditalic.woff2') format('woff2'),
+    url('fonts/raleway-extrabolditalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ralewayextralight';
+    src: url('fonts/raleway-extralight.woff2') format('woff2'),
+    url('fonts/raleway-extralight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ralewayextralight_italic';
+    src: url('fonts/raleway-extralightitalic.woff2') format('woff2'),
+    url('fonts/raleway-extralightitalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ralewayitalic';
+    src: url('fonts/raleway-italic.woff2') format('woff2'),
+    url('fonts/raleway-italic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ralewaylight';
+    src: url('fonts/raleway-light.woff2') format('woff2'),
+    url('fonts/raleway-light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ralewaylight_italic';
+    src: url('fonts/raleway-lightitalic.woff2') format('woff2'),
+    url('fonts/raleway-lightitalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ralewaymedium';
+    src: url('fonts/raleway-medium.woff2') format('woff2'),
+    url('fonts/raleway-medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ralewaymedium_italic';
+    src: url('fonts/raleway-mediumitalic.woff2') format('woff2'),
+    url('fonts/raleway-mediumitalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('fonts/raleway-regular.woff2') format('woff2'),
+    url('fonts/raleway-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ralewaysemibold';
+    src: url('fonts/raleway-semibold.woff2') format('woff2'),
+    url('fonts/raleway-semibold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ralewaysemibold_italic';
+    src: url('fonts/raleway-semibolditalic.woff2') format('woff2'),
+    url('fonts/raleway-semibolditalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ralewaythin';
+    src: url('fonts/raleway-thin.woff2') format('woff2'),
+    url('fonts/raleway-thin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+@font-face {
+    font-family: 'ralewaythin_italic';
+    src: url('fonts/raleway-thinitalic.woff2') format('woff2'),
+    url('fonts/raleway-thinitalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!WŁAŚCIWA STRONA!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+body{
+    margin: auto;
+    padding: 0;
+    font-family: ralewayregular, sans-serif;
+}
+
+/*******************************************************Layout**********************************************************/
+
+header, section, footer{
+    width: 1200px;
+    height: 202px;
+    margin: 0 auto;
+}
+
+
+/*******************************************************HEADER**********************************************************/
+
+
+header{
+    height: 41px;
+    background: black;
+    color: white;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.logo{
+    float: left;
+    margin-left: 70px;
+    margin-top: 14px;
+    font-family: ralewaysemibold, sans-serif;
+}
+
+.important_text{
+    color: #29ba9f;
+    font-family: ralewayextrabold, sans-serif;
+}
+
+nav{
+    float: right;
+    font-family: ralewaysemibold, sans-serif;
+    margin-right: 78px;
+}
+nav ul{
+    padding: 0;
+    margin-top: 15px;
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    cursor: pointer;
+}
+
+#activeLi2+#activeLi3{
+    margin-left: 35px;
+}
+
+#activeLi+#activeLi2{
+    margin-left: 48px;
+}
+
+
+section.main > div{
+    margin-left: 0;
+    float: left
+}
+
+.slideMenu, .slideMenu2, .slideMenu3{
+    position: absolute;
+    top: 52px;
+    width: 120px;
+    background-color: black;
+}
+
+
+.menuContainer, .menuContainer1, .menuContainer2{
+    position: absolute;
+    top: 0;
+    left: 894px;
+    width: 120px;
+    height: 148px;
+}
+
+.menuContainer1{
+    left: 1000px;
+}
+
+.menuContainer2{
+    left: 1100px;
+}
+
+/*Trójkącik nad menu*/
+.doBefora::before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 9px solid black;
+    left: 44px;
+    top: -9px;
+}
+
+.doBefora ul{
+    margin-top: 0;
+    list-style: none;
+    color: white;
+}
+
+.doBefora .endoLi{
+    display: block;
+    font-size: 14px;
+    margin-top: 13px;
+    margin-left: 13px;
+    margin-bottom: 11px;
+}
+
+.endoLi:hover{
+    color: red;
+}
+
+.visible{
+    display: none;
+}
+
+/****************************************************MAIN SECTION********************************************************/
+
+.main {
+    height: 505px;
+    background: rgb(255, 255, 255); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(203, 202, 207, 1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(203, 202, 207, 1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(203, 202, 207, 1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#cbcacf', GradientType=0); /* IE6-9 */
+}
+
+.main .nav{
+    color: #29ba9f;
+    font-size: 72px;
+    line-height: 505px;
+    padding: 0 40px 0 70px;
+    cursor: pointer;
+}
+
+.main .nav1{
+    color: #29ba9f;
+    font-size: 72px;
+    line-height: 505px;
+    padding: 0 40px 0 98px;
+    cursor: pointer;
+}
+
+.navContent, .navContent1{
+    display: inline;
+}
+
+
+.main .img, .main .img1, .main .img2, .main .img3{
+    width: 400px;
+    height: 505px;
+    background-image: url("images/black_chair.png");
+    background-repeat: no-repeat;
+    background-size: 148%;
+    background-position: 60% 80%;
+}
+
+.main .img1{
+    background-image: url("images/red_chair.png");
+}
+
+.main .img2{
+    background-image: url("images/form_ok.jpg");
+}
+
+.main .img3{
+    background-image: url("images/box1_img.jpg");
+}
+
+.main .product_description {
+    width: 437px;
+    text-align: center;
+    margin: 134px 0 0 0;
+}
+
+.main .product_description h1{
+    font-size: 37px;
+    margin: 0;
+    letter-spacing: 1px;
+}
+.main .product_description p{
+    padding: 13px;
+    font-size: 15px;
+    line-height: 1.5em;
+}
+.main .product_description button{
+    background-color: #29ba9f;
+    color: white;
+    border-radius: 12px;
+    border: none;
+    font-size: 23px;
+    word-spacing: 3px;
+    height: 54px;
+    width: 262px;
+    padding: 3px 1px 2px 13px;
+    /*przycisk jest krzywy na prjekcie! paddingami zrobić!*/
+    font-family: ralewaythin, sans-serif;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+/*******************************************************Section BOXES**************************************************/
+
+.boxes{
+    height: 350px;
+
+}
+
+.boxes > div{
+    float: left;
+    box-sizing: border-box;
+}
+
+.boxes > div:first-child{
+    width: 330px;
+    height: 225px;
+    margin: 24px 8px 0 67px;
+    background-image: url("images/box1_img.jpg");
+}
+
+.boxes > div:nth-child(2){
+    width: 330px;
+    height: 225px;
+    margin: 24px 0 0 20px;
+    background-image: url("images/box2_img.jpg");
+}
+
+.boxes > div:nth-child(3){
+    width: 340px;
+    height: 254px;
+    margin: 24px 8px 0 26px;
+    border: 1px solid lightgrey;
+    box-sizing: border-box;
+}
+
+.boxes .firstBox{
+    position:absolute;
+    margin-top: 150px;
+    padding: 14px 240px 28px 17px;
+    background: rgba(255 ,255 ,255 ,0.5);
+    font-family: ralewaybold, sans-serif;
+    font-size: 16px;
+}
+
+.boxes .secondBox{
+    position:absolute;
+    margin-top: 150px;
+    padding: 14px 183px 28px 15px;
+    background: rgba(255 ,255 ,255 ,0.5);
+    font-family: ralewaybold, sans-serif;
+    font-size: 16px;
+}
+
+.boxes .thirdBox{
+    position:absolute;
+    background: rgba(255 ,255 ,255 ,0.5);
+    font-family: ralewaybold, sans-serif;
+    font-size: 16px;
+    width: 318px;
+}
+
+.thirdBox > p:nth-child(1){
+    font-family: ralewaybold, sans-serif;
+    font-size: 16px;
+    padding: 10px 0 0 22px;
+}
+.thirdBox > p:nth-child(2){
+    font-family: ralewaylight, sans-serif;
+    font-size: 14px;
+    padding: 6px 0 0 24px;
+    line-height: 21px;
+}
+.thirdBox > p:nth-child(3){
+    font-family: ralewaylight, sans-serif;
+    font-size: 14px;
+    padding: 6px 0 0 24px;
+    line-height: 21px;
+}
+
+.blueStripe2::after{
+    content:"";
+    border: 3px solid #29ba9f;
+    width: 133px;
+    display: block;
+    position: absolute;
+    margin-top: 4px;
+}
+
+.blueStripe1::after{
+    content:"";
+    border: 3px solid #29ba9f;
+    width: 133px;
+    display: block;
+    position: absolute;
+    margin-top: 1px;
+}
+
+
+/****************************************************PRICELIST********************************************************/
+
+
+.priceList{
+    position: relative;
+    height: 725px;
+    background-color: #F1F1F1;
+    box-sizing: border-box;
+    margin-top: 0;
+    clear: both;
+}
+
+.bigBox{
+    position: absolute;
+    width: 330px;
+    height: 500px;
+    border: 2px solid #E4E4E4;
+    box-sizing: border-box;
+    background-color: #F9F9F9;
+    margin: 158px 0 0 66px;
+}
+
+.priceList .bigBox:nth-child(2){
+    margin-left: 426px;
+}
+
+.priceList .bigBox:nth-child(3){
+    margin-left: 788px;
+}
+
+
+.bigTopCircle{
+    position: absolute;
+    margin: -38px 0 0 136px;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    border: 2px solid #E4E4E4;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.bigTopCircle::after{
+    content: "";
+    position: absolute;
+    margin: 13px 0 0 13px;
+    width: 26px;
+    height: 26px;
+    background-color: #C2C2C2;
+    border-radius: 50%;
+}
+
+.priceList h2{
+    position: absolute;
+    margin: 41px 0 0 66px;
+    font-size: 23px;
+}
+
+.priceList h2::after {
+    content: "";
+    border: 4px solid #29ba9f;
+    width: 313px;
+    display: block;
+    margin-top: 6px;
+}
+
+.priceList h3{
+    text-align: center;
+    margin-top: 23px;
+    margin-bottom: 0;
+    font-family: "Calibri Light", serif;
+    font-size: 28px;
+    color: #29ba9f;
+}
+
+.circleDecorationWithPrice{
+    margin: 23px 0 0 101px;
+    width: 126px;
+    height: 126px;
+    border: 2px solid #C2C2C2;
+    color: #C2C2C2;
+    border-radius: 50%;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.circleDecorationWithPrice .priceValue{
+    text-align: center;
+    line-height: 65px;
+    font-family: ralewaybold, sans-serif;
+    font-size: 48px;
+}
+
+.circleDecorationWithPrice .priceValue span{
+    vertical-align: 25px;
+    font-size: 14px;
+}
+
+.circleDecorationWithPrice .priceUnit{
+    margin: 1px 0 0 23px;
+    font-size: 16px;
+}
+
+.details{
+    margin-top: 34px;
+    box-sizing: border-box;
+    border-top: 3px solid white;
+    list-style: none;
+    font-size: 24px;
+    padding: 0;
+}
+
+.details > div {
+    width: 322px;
+    height: 43px;
+    margin-left: 2px;
+    margin-right: 2px;
+    text-align: center;
+    line-height: 43px;
+    color: #C2C2C2;
+}
+
+.details div:nth-child(2n){
+    background-color: #F1F1F1;
+}
+
+.details div:nth-child(2n-1){
+    background-color: #E4E4E4 ;
+}
+
+.bigBox button{
+    position: absolute;
+    border: none;
+    border-radius: 8px;
+    background-color: #29ba9f;
+    width: 121px;
+    height: 33px;
+    bottom: 19px;
+    left: 105px;
+    color: white;
+    font-size: 15px;
+}
+
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!Formularz!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+.contact{
+    position: relative;
+    height: 540px;
+}
+
+.contact h2{
+    position: absolute;
+    top: 12px;
+    left: 73px;
+    font-size: 22px;
+}
+
+.contact h2::after {
+    content: "";
+    border: 4px solid #29ba9f;
+    width: 313px;
+    display: block;
+    margin-top: 6px;
+}
+
+.contact form label input, textarea{
+    outline: none;
+}
+
+.contact label{
+    position: absolute;
+    left: 72px;
+}
+
+.contact form label:nth-child(1){
+    float: left;
+    top: 114px;
+    height: 66px;
+}
+.contact form label:nth-child(1) input{
+    font-size: 34px;
+    width: 636px;
+    padding: 14px 0 9px 11px;
+    font-family: ralewayregular, sans-serif;
+    box-sizing: border-box;
+    border: 2px solid #29ba9f;
+}
+
+.contact form label:nth-child(2){
+    float: left;
+    top: 206px;
+}
+
+.contact form label:nth-child(2) input{
+    font-size: 34px;
+    width: 636px;
+    padding: 14px 0 9px 11px;
+    font-family: ralewayregular, sans-serif;
+    box-sizing: border-box;
+    border: 2px solid #29ba9f;
+}
+
+.contact form label:nth-child(3){
+    float: left;
+    top: 297px;
+}
+
+.contact form label:nth-child(3) textarea{
+    font-size: 34px;
+    width: 636px;
+    padding: 11px 0 16px 11px;
+    font-family: ralewayregular, sans-serif;
+    box-sizing: border-box;
+    border: 2px solid #29ba9f;
+}
+
+
+textarea[name=message]{
+    resize: none;
+}
+
+.contact form .check{
+    display: block;
+    width: 350px;
+    height: 58px;
+    position: absolute;
+    top: 331px;
+    left: 758px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.contact form .check input{
+    float: left;
+    display: block;
+    width: 49px;
+    height: 49px;
+    margin-right: 13px;
+    margin-top: -2px;
+    margin-left: 6px;
+    background-color: white;
+    border: none;
+}
+
+.contact form .check input[type=checkbox]{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 1px solid #29ba9f;
+}
+
+.contact form .check input[type=checkbox]:checked{
+    background: url("images/form_ok.jpg") no-repeat -2px 6px;
+    border: 1px solid #29ba9f;
+}
+
+.contact form input[name=send]{
+    position: absolute;
+    bottom: 54px;
+    right: 94px;
+    width: 343px;
+    height: 71px;
+    border: none;
+    border-radius: 10px;
+    font-family: ralewaybold, sans-serif;
+    font-size: 32px;
+    background-color: #29ba9f;
+    color: white;
+}
+
+.contact img{
+    position: absolute;
+    top: 86px;
+    right: 154px;
+}
+
+/******************************************************FOOTER**********************************************************/
+
+footer{
+    height: 100px;
+}
+
+.footerText{
+    float: left;
+    margin-right: 278px;
+    margin-left: 63px;
+    margin-top: 45px;
+    font-family: ralewaybold, sans-serif;
+    word-spacing: 4px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+footer img{
+    display: block;
+    float: left;
+    margin-top: 29px;
+    margin-left: 4px;
+}
+
+.footerIMG1{
+    margin-top: 40px;
+    float: left;
+    width: 35px;
+    height: 35px;
+    background-image: url("images/flickr.png");
+}
+
+.footerLogo{
+    margin-left: 64px;
+    margin-top: 40px;
+    font-size: 21px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.important_text2{
+    font-family: ralewayextrabold, sans-serif;
+}
+
+
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!Make a project alive!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+.bigBox:hover{
+    background-color: #29ba9f;
+    border-color: #29ba9f;
+}
+
+.bigBox:hover .bigTopCircle {
+    border-color: #29ba9f;
+    background-color: #29ba9f;
+}
+.bigBox:hover h3{
+    color: white;
+}
+
+.bigBox:hover .bigTopCircle::after{
+    background-color: white;
+}
+
+.bigBox:hover .changeButton{
+    background-color: white;
+    color: #29ba9f;
+}
+
+.bigBox:hover .circleDecorationWithPrice{
+    border-color: #29ba9f;
+    color: #29ba9f;
+}
+
+.bigBox:hover .details div:nth-child(2n-1){
+    background-color: white;
+}
+
+
+.bigBox:hover .details div:nth-child(2n){
+    background-color: #E4E4E4 ;
+}
+
+.footerLogo{
+    float:left;
+}
